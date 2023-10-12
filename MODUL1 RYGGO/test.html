@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <style>
+        h1 {
+            color: rgb(255, 255, 255);
+            font-family:Helvetica;
+        }
+
+        h2 {
+            text-align: center;
+        }
+        .profile-info {
+            flex: 1;
+        }
+
+        .profile-info img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="p-3 mb-2 bg-primary text-white">
+    <center><b><h1>Ryggo Portofolio's</h1></b></center>
+    </div>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://linkedin.com/in/ryggo-maulana-putra-312a62267/">LinkedIn</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Section
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Organisasi</a></li>
+              <li><a class="dropdown-item" href="#">Feedback</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="Knowme">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide w-75 " data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="upin.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="palestin.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="erp.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <center><h2>Welcome to my Portofolio</h2></center>
+    <br>
+    <center><p>Mahasiswa Semester 5 Sistem Informasi Telkom University dengan memiliki minat untuk eksplorasi diri lebih jauh dan sebagai life-long learner.<br> Serta memberikan manfaat kepada orang sekitar dan menjadi lebih baik dari hari kemarin</p></center>
+  </div>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <h2>Profile</h2>
+        <left><p>Nama</p></left>
+        <left><p>Kelas</p></left>
+        <left><p>Jurusan</p></left>
+        <p>Alamat</p>
+        <p>No Telp</p>
+      </div>
+      <div class="col">
+        <h2>Deskripsi</h2>
+        <p>Ryggo Maulana Putra</p>
+        <p>SI-45-04</p>
+        <p>Sistem Informasi</p>
+        <p>Jln Jupiter Selatan 13</p>
+        <p>085221219223</p>
+      </div>
+      <div class="col">
+        <h2>Hi Its Me, Ygoooo</h2>
+        <div class="profile-info">
+            <img src="fotoigo.png" alt="Foto Profil">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <hr>
+    <h2>Organisasi</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="upin.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">BPH HMSI</h5>
+              <p class="card-text">Badan Pengurus Harian Himpunan Sistem Informasi dan menjabat di Staff Ahli Biro Relasi.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="palestin.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"> AL-FATH FRI</h5>
+              <p class="card-text">Memiliki pengalaman Design dan koordinator media di divisi MEDIA AL-FATH Fakultas</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="erp.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">ERP Laboratry & Study Group</h5>
+              <p class="card-text">Memiliki antusias dibidang ERP dan memiliki pengalaman menjadi Asisten Praktikum ERP.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class = "container";>
+    
+    <br>
+    <br>
+    <h2>FeedBack for better me !</h2>
+    <br>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Feedback</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <button type="button" class="btn btn-primary">Send</button>
+  </div>
+  <div class = "container">
+    <br><br><br>
+    <center>
+        <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+      </nav>
+    </center>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
